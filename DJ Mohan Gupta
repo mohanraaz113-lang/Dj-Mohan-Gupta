@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DJ Mohan Gupta</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>DJ Mohan Gupta</h1>
+<p>Official DJ Remix Website</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Latest Songs</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="song-card">
+<h2>90's Hindi DJ Remix</h2>
+<p>Best Quality DJ Remix Song Collection.</p>
+<a class="download-btn" href="#">Download</a>
+</div>
+
+<div class="song-card">
+<h2>Bhojpuri DJ Remix</h2>
+<p>Latest Bhojpuri Hard Bass Remix Songs.</p>
+<a class="download-btn" href="#">Download</a>
+</div>
+
+<div class="song-card">
+<h2>Bol Bam DJ Remix</h2>
+<p>Sawan Special Bol Bam DJ Songs.</p>
+<a class="download-btn" href="#">Download</a>
+</div>
+
+<div class="song-card">
+<h2>Punjabi DJ Remix</h2>
+<p>High Quality Punjabi Remix Collection.</p>
+<a class="download-btn" href="#">Download</a>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 DJ Mohan Gupta | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
