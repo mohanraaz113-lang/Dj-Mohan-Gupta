@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0d0d0d;
+    color:#fff;
+}
+
+header{
+    background:linear-gradient(90deg,#ff0000,#ff7300);
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:35px;
+    text-transform:uppercase;
+}
+
+nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ff0000;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px 0;
+}
+
+.song-card{
+    background:#1a1a1a;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(255,0,0,0.4);
+    transition:.3s;
+}
+
+.song-card:hover{
+    transform:scale(1.02);
+}
+
+.song-card h2{
+    color:#ff4444;
+    margin-bottom:10px;
+}
+
+.song-card p{
+    color:#ccc;
+    margin-bottom:15px;
+}
+
+.download-btn{
+    display:inline-block;
+    background:#ff0000;
+    color:#fff;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.download-btn:hover{
+    background:#cc0000;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    color:#aaa;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:26px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .song-card{
+        padding:15px;
+    }
+}
